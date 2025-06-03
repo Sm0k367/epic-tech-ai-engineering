@@ -1,18 +1,11 @@
-// src/app/layout.tsx
+// src/app/layout.tsxAdd commentMore actions
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css"; 
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Epic Tech AI Engineering",
-  description: "Generate anything, create everything, no limits.",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
+@@ -16,5 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
